@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Utters</title>
+	</head>
+	<body>
+    <a id="btn" href="#">Speak to me!</a>
+    <script type="module">
+        import utters from '../src/index.js';
+        window.btn.onclick = speak;
+        async function speak() {
+            await utters('Hello');
+            await utters(new SpeechSynthesisUtterance('Beautiful World'));
+            console.log(`Done`);
+        }
+    </script>
+	</body>
+</html>
