@@ -9,9 +9,9 @@ $ npm install utters
 
 This module is delivered as:
 
-* **ES Module**: [`dist/index.js`]()
-* **UMD**: [`dist/utters.umd.js`]()
-* **UMD Minified**: [`dist/utters.umd.min.js`]()
+* **ES Module**: [`dist/index.mjs`](https://unpkg.com/utters/dist/index.mjs)
+* **UMD**: [`dist/utters.umd.js`](https://unpkg.com/utters/dist/utters.umd.js)
+* **UMD Minified**: [`dist/utters.umd.min.js`](https://unpkg.com/utters/dist/utters.umd.min.js)
 
 ## Usage
 
