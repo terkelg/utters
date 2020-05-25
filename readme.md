@@ -13,6 +13,7 @@ This module is delivered as:
 * **UMD**: [`dist/utters.umd.js`](https://unpkg.com/utters/dist/utters.umd.js)
 * **UMD Minified**: [`dist/utters.umd.min.js`](https://unpkg.com/utters/dist/utters.umd.min.js)
 
+
 ## Usage
 
 ```js
@@ -22,13 +23,16 @@ function speak() {
 
   // string input
   await utters(`Hello World`);
-            
+
   // SpeechSynthesisUtterance input
   await utters(new SpeechSynthesisUtterance(`Hello World`));
 
   console.log(`Done!`);
 }
 ```
+
+Read more about how to use the [`SpeechSynthesis` API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
+
 
 ## API
 
